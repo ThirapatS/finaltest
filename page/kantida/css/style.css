@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav.navbar {
+    height: 100px;
+    background-color: #ff9494;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav.navbar .siteNeme {
+    font-size: 45px;
+    font-weight: 700;
+}
+nav.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav.navbar ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}

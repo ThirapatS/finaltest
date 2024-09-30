@@ -1,0 +1,80 @@
+@font-face {
+    font-family: candara;
+    src: url(../fonts/CANDARA.TTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: candara;
+}
+
+header.topbar {
+    width: 100%;
+}
+header.topbar nav.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: pink;
+    padding: 20px;
+    height: 70px;
+}
+header.topbar nav.navbar .siteName {
+    font-size: 50px;
+    font-weight: 700;
+}
+header.topbar nav.navbar ul li {
+    display: inline;    
+    margin-right: 20px;
+}
+header.topbar nav.navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+header.topbar nav.navbar ul li a:hover {
+    color: rgb(202, 81, 101);
+}
+main {
+     width: 100%;
+     min-height: calc(100vh - 70px);
+}
+main.index .container {
+    background: url(../images/xaycNDmeyxpHDrPqU6LmaD.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main.index .container .box {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+}
+main.index .container .box button {
+    width: 190px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    background: pink;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+main.index .container .box button:hover {
+    background: rgb(235, 129, 147);
+}
+main.blog .container{
+    min-height: calc(100vh - 70px);
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/mountain-climber-2427191_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}

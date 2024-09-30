@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+main.main {
+    height: 500px;
+    background-color: rgb(189, 230, 176);
+    color: rgb(134, 211, 247);
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+main.main .siteName {
+    font-size: 45px;
+    font-weight: 700;
+}
+main.main p {
+    margin-right: 100px;
+    color: #fff;
+}

@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+nav.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:pink;
+
+}
+nav.navbar ul {
+    display: flex;
+    align-items: center;
+}
+nav.navbar ul li{
+    list-style: none;
+    margin: 20px;
+}
+nav.navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+.container{
+    width: 100%;
+    min-height: calc(100vh - 83px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .rakkai {
+    width: 800px;
+    height: 400px;
+    background: powderblue;
+}
+.container .rakkai .nomin {
+    width: 50px;
+    height: 50px;
+    background: rgb(180, 174, 174);
+}
